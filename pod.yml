@@ -1,0 +1,9 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: qasim-laraapp-pod
+spec:
+  containers:
+    - name: c00
+      image: qasimsultani/qasim-laravelapp
+  restartPolicy: Never
